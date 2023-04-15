@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kidscartoon/static/css/main.879cef25.css",
+    "main.js": "/kidscartoon/static/js/main.8d9f305a.js",
+    "static/js/787.42354ad9.chunk.js": "/kidscartoon/static/js/787.42354ad9.chunk.js",
+    "index.html": "/kidscartoon/index.html",
+    "main.879cef25.css.map": "/kidscartoon/static/css/main.879cef25.css.map",
+    "main.8d9f305a.js.map": "/kidscartoon/static/js/main.8d9f305a.js.map",
+    "787.42354ad9.chunk.js.map": "/kidscartoon/static/js/787.42354ad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.879cef25.css",
+    "static/js/main.8d9f305a.js"
+  ]
+}
