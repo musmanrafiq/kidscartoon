@@ -14,12 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100px;
+  background-color: #d51d1d;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -36,3 +33,31 @@
     transform: rotate(360deg);
   }
 }
+
+.nav { 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.testimonial-group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-4 {
+  display: inline-block;
+}
+
+/* Decorations */
+.col-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
+.col-4:nth-child(3n+1) { background: #c69; }
+.col-4:nth-child(3n+2) { background: #9c6; }
+.col-4:nth-child(3n+3) { background: #69c; }
