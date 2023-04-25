@@ -61,3 +61,10 @@
 .col-4:nth-child(3n+1) { background: #c69; }
 .col-4:nth-child(3n+2) { background: #9c6; }
 .col-4:nth-child(3n+3) { background: #69c; }
+
+.link {
+  color: #FFF;
+}
+.link:hover {
+   color: rgb(249, 249, 249)
+}
