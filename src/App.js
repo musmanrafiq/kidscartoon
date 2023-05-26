@@ -15,7 +15,7 @@ function App() {
     <div className="container-fluid">
       <BrowserRouter>
       <Routes>
-        <Route path="kidscartoon/" element={<Layout />}>
+        <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='video/:id' element={<Video />} />
           <Route path='video/add' element={<AddVideo />} />
